@@ -1,5 +1,7 @@
 import React from 'react'
 
+import { Layout } from '~/features/ui/components/Layout/LayoutCommon'
+
 export function ArtistsPage() {
-  return <div>Artists Page</div>
+  return <Layout title="Artists">Artist Page</Layout>
 }
