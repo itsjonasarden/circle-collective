@@ -4,10 +4,10 @@ export const palette = {
   grey: '#9E9E9E',
   darkGrey: '#303131',
   gradientDivider:
-    'background: linear-gradient(270deg, #FFFC44 0%, #AA65FF 48.96%, #84DBFF 100%)',
+    'linear-gradient(270deg, #FFFC44 0%, #AA65FF 48.96%, #84DBFF 100%)',
   gradientHeading:
-    'background: linear-gradient(223.71deg, #FFFC44 12.48%, #AA65FF 52.94%, #84DBFF 95.12%)',
+    'linear-gradient(223.71deg, #FFFC44 12.48%, #AA65FF 52.94%, #84DBFF 95.12%)',
   gradientEventsHeading:
-    'background: linear-gradient(225.5deg, #AA65FF 41.46%, #84DBFF 95.27%);',
+    'linear-gradient(225.5deg, #AA65FF 41.46%, #84DBFF 95.27%);',
   transparent: 'transparent',
 }

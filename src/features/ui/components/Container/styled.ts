@@ -6,7 +6,8 @@ export const Container = styled.section`
   margin: 0 auto;
   padding: 0;
   max-width: ${ScreenSize.large / 10} rem;
-  box-sizing: content-box;
+  box-sizing: border-box;
+  min-height: 100%;
 
   ${mq.medium} {
     padding: 7.5rem 2rem;
